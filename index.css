@@ -9,35 +9,38 @@ body {
 header{
     display: flex;
     justify-content: space-between;
-    margin: 3rem 7rem;
+    margin: 3rem 5rem;
 }
 .container{
-    margin: 4rem 5rem;
+   
 }
 .container-team{
     display: grid;
     grid-template-columns: auto auto auto;
 }
 img{
-    width: 60%;
-    filter: drop-shadow(1rem 1rem 1rem gray);
+    width: 70%;
+    filter: drop-shadow(.5rem .5rem .5rem gray);
     border-radius: 0.3rem;
 }
 .cantainer--team-member{
     margin: 2rem;
 }
 .cantainer--team-member p{
-    margin: 1rem 0;
+    margin: .5rem 0;
 }
 .cantainer--team-member1{
     margin-top: 7rem;
 }
 span{
     display: block;
-    
-    margin-left:10rem;
     font-size: smaller;
-    transform: rotate(90deg);
-    transform: ;
+    transform: rotate(90deg) translate(-10rem,-6rem); 
+   
+  
     
+}
+.change-bg{
+    background-color: black;
+    color: white;
 }
