@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background: rgba(244, 244, 244);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 7rem;
+}
+.container{
+    margin: 4rem 5rem;
+}
+.container-team{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+img{
+    width: 60%;
+    filter: drop-shadow(1rem 1rem 1rem gray);
+    border-radius: 0.3rem;
+}
+.cantainer--team-member{
+    margin: 2rem;
+}
+.cantainer--team-member p{
+    margin: 1rem 0;
+}
+.cantainer--team-member1{
+    margin-top: 7rem;
+}
+span{
+    display: block;
+    
+    margin-left:10rem;
+    font-size: smaller;
+    transform: rotate(90deg);
+    transform: ;
+    
+}
