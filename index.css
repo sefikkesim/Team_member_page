@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -6,39 +7,12 @@
 body {
     background: rgba(244, 244, 244);
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    margin: 3rem 5rem;
-}
-.container{
-   
-}
-.container-team{
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
 img{
-    width: 70%;
-    filter: drop-shadow(.5rem .5rem .5rem gray);
-    border-radius: 0.3rem;
-}
-.cantainer--team-member{
-    margin: 2rem;
-}
-.cantainer--team-member p{
-    margin: .5rem 0;
-}
-.cantainer--team-member1{
-    margin-top: 7rem;
+   
 }
 span{
-    display: block;
+    transform: rotate(90deg) translateY(-13.5rem) translateX(15rem);
     font-size: smaller;
-    transform: rotate(90deg) translate(-10rem,-6rem); 
-   
-  
-    
 }
 .change-bg{
     background-color: black;
