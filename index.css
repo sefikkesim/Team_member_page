@@ -4,14 +4,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-    background: rgba(244, 244, 244);
-}
-img{
-   
-}
-span{
-    transform: rotate(90deg) translateY(-13.5rem) translateX(15rem);
+.span{
+    transform: rotate(90deg) translateY(2rem) translateX(4rem);
     font-size: smaller;
 }
 .change-bg{
